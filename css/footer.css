@@ -1,0 +1,64 @@
+/*
+Error: Undefined variable: "$gris02".
+        on line 3 of /Users/veronicarodriguezgarcia/Desktop/Test-Front-End/tmp/SCSS/footer.scss
+
+1: // Footer
+2: footer {
+3:     background: $gris02;
+4:     padding: 30px 0px;
+5:     font-size: 13px;
+6:     
+7:     a {
+8:         color: $gris01; 
+
+Backtrace:
+/Users/veronicarodriguezgarcia/Desktop/Test-Front-End/tmp/SCSS/footer.scss:3
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/script/tree/variable.rb:49:in `_perform'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/script/tree/node.rb:50:in `perform'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:430:in `map'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:167:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:8:in `send'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/engine.rb:285:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/exec/sass_scss.rb:407:in `run'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/exec/base.rb:52:in `parse'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/sass:13
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$gris02\".\A         on line 3 of /Users/veronicarodriguezgarcia/Desktop/Test-Front-End/tmp/SCSS/footer.scss\A \A 1: // Footer\A 2: footer {\A 3:     background: $gris02;\A 4:     padding: 30px 0px;\A 5:     font-size: 13px;\A 6:     \A 7:     a {\A 8:         color: $gris01; "; }

@@ -1,0 +1,30 @@
+// Footer
+footer {
+    background: $gris02;
+    padding: 30px 0px;
+    font-size: 13px;
+    
+    a {
+        color: $gris01; 
+        
+        &:hover {
+            color: $blanco;   
+        }
+        
+        &:focus {
+            color: $blanco; 
+        }
+    }
+    
+    .redes-sociales {
+        
+        a {
+            font-size: 18px; 
+        }
+    }
+    
+    address {
+        font-style: normal; 
+        color: $gris01;
+    }
+}

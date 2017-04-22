@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+//Tipografia
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,300,400,500');
+
+//Paleta de Colores
+$negro :  #000000;
+$blanco:  #ffffff;
+
+// Color de mayor intensidad a menor.
+$gris02: #393939;
+$gris01: #A2A2A2;
+
+//Estilos Generales
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-size: 13px;
+    color: $gris02;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+/**
+ * Estilos del header.
+ * Archivo: _contenido.scss
+ * 
+ */
+
+@import "contenido";
+
+/**
+ * Estilos del header.
+ * Archivo: _header.scss
+ * 
+ */
+
+@import "header";
+
+/**
+ * Estilos del header.
+ * Archivo: _footer.scss
+ * 
+ */
+
+@import "footer";
+

@@ -1,0 +1,111 @@
+// slider principal
+.slider-principal {
+    margin: 0px;  
+    position:relative;
+    
+    img {
+        width: 100%;
+    }
+    
+    .slick-dots li.slick-active button:before {
+        opacity: .7;
+        color: $gris02 !important; 
+    }
+    
+    .slick-dotted.slick-slider{
+        margin-bottom: 0px !important;
+    }
+    
+    .slick-dots {
+        bottom: 10% !important;
+        
+        button:before {
+            font-family: 'slick';
+            font-size: 36px !important;
+            line-height: 20px;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            content: '•';
+            text-align: center;
+            opacity: .7 !important;
+            color: $blanco !important;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale; 
+        }
+    }
+}
+// Slogan
+.slogan {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        top: 25%;
+    }
+    
+    h1 {
+        font-size: 2.6vw;
+        font-weight: 300;
+        letter-spacing: 12px;
+        color: $blanco;
+        text-shadow: 2px 2px #000000;
+    }
+}
+// Animated
+.animated {
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+// Section 
+section {
+    margin: 30px 0px;
+    
+    img {
+        width: 100%;
+    } 
+} 
+// Banner slogan
+.banner-slogan {
+    background-image: url('../img/patron.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover; 
+    height: 200px;
+    padding: 50px 0px;
+    
+    h3 {
+        font-size: 32px;
+        letter-spacing: 11px;
+        color: $blanco;
+        font-weight: 300;
+        padding-top: 40px;
+        
+        @media screen and (max-width: 39.9375em) {
+            font-size: 24px;
+            padding-top: 20px;
+        }
+    }
+}
+

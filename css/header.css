@@ -1,0 +1,69 @@
+/*
+Error: Undefined variable: "$negro".
+        on line 4 of /Users/veronicarodriguezgarcia/Desktop/Test-Front-End/tmp/SCSS/header.scss
+
+1: // Header
+2: header {
+3:     background: rgba(255, 255, 255, 0.9) ;
+4:     border-bottom: solid 3px $negro;
+5:     z-index: 30;
+6:     position: fixed;
+7:     width: 100%;
+8:     
+9:     ul.menu {
+
+Backtrace:
+/Users/veronicarodriguezgarcia/Desktop/Test-Front-End/tmp/SCSS/header.scss:4
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/script/tree/variable.rb:49:in `_perform'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/script/tree/node.rb:50:in `perform'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/script/tree/list_literal.rb:63:in `_perform'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/script/tree/list_literal.rb:63:in `map'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/script/tree/list_literal.rb:63:in `_perform'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/script/tree/node.rb:50:in `perform'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:394:in `visit_prop'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:430:in `map'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:430:in `visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:167:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `send'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:8:in `send'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/engine.rb:285:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/exec/sass_scss.rb:407:in `run'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/exec/base.rb:52:in `parse'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/sass:13
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$negro\".\A         on line 4 of /Users/veronicarodriguezgarcia/Desktop/Test-Front-End/tmp/SCSS/header.scss\A \A 1: // Header\A 2: header {\A 3:     background: rgba(255, 255, 255, 0.9) ;\A 4:     border-bottom: solid 3px $negro;\A 5:     z-index: 30;\A 6:     position: fixed;\A 7:     width: 100%;\A 8:     \A 9:     ul.menu {"; }
