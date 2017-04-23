@@ -14,13 +14,12 @@ h2 {
   font-size: 24px; }
 
 /**
- * Estilos del header.
+ * Estilos del contenido.
  * Archivo: _contenido.scss
  * 
  */
 .slider-principal {
   margin: 0px;
-  padding-bottom: 0px;
   position: relative; }
   .slider-principal img {
     width: 100%; }
@@ -133,7 +132,7 @@ header {
         transform: scale(1.1); }
 
 /**
- * Estilos del header.
+ * Estilos del footer.
  * Archivo: _footer.scss
  * 
  */
