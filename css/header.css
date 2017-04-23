@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$negro".
-        on line 4 of /Users/veronicarodriguezgarcia/Desktop/Test-Front-End/tmp/SCSS/header.scss
+        on line 4 of /Users/veronicarodriguezgarcia/Test-Front-End/tmp/SCSS/header.scss
 
 1: // Header
 2: header {
@@ -10,10 +10,10 @@ Error: Undefined variable: "$negro".
 6:     position: fixed;
 7:     width: 100%;
 8:     
-9:     ul.menu {
+9:     // Menu
 
 Backtrace:
-/Users/veronicarodriguezgarcia/Desktop/Test-Front-End/tmp/SCSS/header.scss:4
+/Users/veronicarodriguezgarcia/Test-Front-End/tmp/SCSS/header.scss:4
 /usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/script/tree/variable.rb:49:in `_perform'
 /usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/script/tree/node.rb:50:in `perform'
 /usr/local/rvm/gems/ruby-1.9.3-p392/gems/sass-3.4.13/bin/../lib/sass/script/tree/list_literal.rb:63:in `_perform'
@@ -66,4 +66,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$negro\".\A         on line 4 of /Users/veronicarodriguezgarcia/Desktop/Test-Front-End/tmp/SCSS/header.scss\A \A 1: // Header\A 2: header {\A 3:     background: rgba(255, 255, 255, 0.9) ;\A 4:     border-bottom: solid 3px $negro;\A 5:     z-index: 30;\A 6:     position: fixed;\A 7:     width: 100%;\A 8:     \A 9:     ul.menu {"; }
+  content: "Error: Undefined variable: \"$negro\".\A         on line 4 of /Users/veronicarodriguezgarcia/Test-Front-End/tmp/SCSS/header.scss\A \A 1: // Header\A 2: header {\A 3:     background: rgba(255, 255, 255, 0.9) ;\A 4:     border-bottom: solid 3px $negro;\A 5:     z-index: 30;\A 6:     position: fixed;\A 7:     width: 100%;\A 8:     \A 9:     // Menu"; }

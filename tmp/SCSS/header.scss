@@ -6,6 +6,7 @@ header {
     position: fixed;
     width: 100%;
     
+    // Menu
     ul.menu {
         padding-top: 40px;
         padding-left:0px;
@@ -17,7 +18,7 @@ header {
                 color: $gris02;
            
                 @media screen and (max-width: 39.9375em) {
-                    font-size: 12px;
+                    font-size: 11px;
                 }
                 
                 &:hover {

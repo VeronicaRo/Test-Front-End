@@ -124,7 +124,7 @@ header {
       color: #393939; }
       @media screen and (max-width: 39.9375em) {
         header ul.menu li a {
-          font-size: 12px; } }
+          font-size: 11px; } }
       header ul.menu li a:hover {
         color: #A2A2A2;
         -webkit-transform: scale(1.1);
